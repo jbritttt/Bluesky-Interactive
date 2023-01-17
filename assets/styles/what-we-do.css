@@ -186,5 +186,177 @@ width:100%
 
 
  }
+
+
+
+ @media screen and (min-width: 575px) {
+
+    .our-services-section{
+
+margin-top:3rem
+
+    }
+
+
+    .services-grid{
+
+     
+        display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    width: 95%;
+    margin: auto;
+    padding-left:0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+    gap:.4rem;
+    row-gap: 2rem;
+
+
+  
+    text-align: center;
+
+        
+    }
+
+    .our-services-section .grid-item  {
+width:90%;
+height:100%;
+margin:auto;
+padding:0
+
+      
+     
+     }
+
+
+
+     .our-services-section .grid-item h2,p  {
+        width:80%;
+        margin:auto;
+
+       
+        
+              
+             
+             }
+
+
+             .our-services-section .grid-item h2  {
+             margin-top:3rem
+                
+            
+                     
+                     }
+
+                     .our-services-section .grid-item p  {
+                        margin-bottom:3rem
+                           
+                       
+                                
+                                }
+
+
+              
+
+
+    .services-grid .grid-item img {
+
+        display:block;
+        width:100%
+    
+    
+    }
+
+
+
+
+
+
+    }
+
  
 
+    @media screen and (min-width: 990px) {
+        .services-grid{
+    
+         
+         
+        grid-template-columns: 1fr 1fr 1fr;
+padding-top:5rem;
+padding-bottom:5rem;
+            
+        }
+
+     
+        .relationship-grid{
+
+          
+            grid-template-columns: 1fr 1fr;
+          padding:0;
+          padding-top:8rem;
+          padding-bottom:8rem;
+          gap:0;
+          width:90%;
+            
+        
+        
+         }
+
+         .relationship-grid .grid-item {
+
+          
+       width:100%;
+ 
+       
+            
+        
+        
+         }
+
+
+
+
+         .relationship-grid .grid-item h2{
+
+          
+            font-size:1.5rem;
+        
+            
+          
+       
+            
+        
+        
+         }
+
+
+         .relationship-grid .grid-item img{
+
+       
+     
+       
+            
+        
+        
+         }
+
+
+         .relationship-grid .grid-item .title{
+
+          
+            font-size:4rem;
+          line-height:4.5rem;
+          margin-bottom:3rem;
+         
+          width:100%
+       
+            
+        
+        
+         }
+
+
+
+    }
