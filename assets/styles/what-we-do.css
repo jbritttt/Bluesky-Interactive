@@ -1,0 +1,83 @@
+
+.hero-img{
+    
+    width:100%;
+    height:11rem;
+    background-color: blue;
+
+}
+
+
+.hero-wrapper {
+
+    position:relative
+}
+
+.hero-wrapper .hero-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:#0079bc;
+    opacity:0.82
+    
+}
+
+.hero-wrapper h1{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+padding-top:.5rem;
+    font-family:  sans-serif;
+    color:white;
+    text-align: center;
+    font-size:2.4rem;
+    margin:0
+    
+    
+}
+
+.our-services-section{
+    background-color:#F2CE01;
+
+}
+
+
+.services-grid{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+    gap: 10px;
+ 
+    margin-top:5rem;
+    text-align: center;
+}
+
+
+
+.services-grid .grid-item img {
+
+    width:100%
+
+
+}
+
+.our-services-section .grid-item  {
+
+   padding-top:2rem;
+   background-color:white;
+   width:90%;
+   margin:auto
+  
+
+
+}
