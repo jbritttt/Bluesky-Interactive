@@ -37,6 +37,11 @@ position:relative;
   height: 100%;
 }
 
+header .items-wrapper .quote{
+
+display:none
+}
+
 header .items-wrapper .quote,
 .contact-number {
   border-left: 1px solid rgb(231, 231, 231);
@@ -141,6 +146,18 @@ font-weight:bold;
   }
 
  
+  @media screen and (min-width: 400px) {
+
+    header .items-wrapper .quote{
+
+      display:block
+      }
+
+  }
+
+
+
+  
 
 @media screen and (min-width: 990px) {
   header {
