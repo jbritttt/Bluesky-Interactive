@@ -180,6 +180,21 @@
 }
 
 @media screen and (min-width: 990px) {
+
+    .hero-img {
+        
+        height: 17rem;
+       
+      }
+      
+      .hero-wrapper h1 {
+      
+        font-size: 4rem;
+        line-height:17rem
+       
+      }
+
+
   .services-grid {
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 5rem;
