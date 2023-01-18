@@ -1,4 +1,4 @@
-
+//I'm aware that styles can be written in CSS and then toggled in Javascript. Function is invoked from HTML.
 
 
 
@@ -38,4 +38,4 @@ function openMenu() {
   } else;
 }
 
-console.log('hey world')
+
